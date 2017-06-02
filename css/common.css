@@ -11,6 +11,13 @@
   margin-top: 0;
 }
 
+.mb-1{
+  padding: 15px;
+  text-align: center;
+  margin-right: 63px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
 .text-uppercase {
   text-transform: uppercase;
 }

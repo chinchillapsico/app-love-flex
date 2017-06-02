@@ -1,7 +1,6 @@
 body {
   margin: 0 auto;
   font-size: 16px;
-  line-height: 1.71429;
   background-color: #fff;
   /* Enlaza la tipografia Open Sans */
 }
@@ -88,7 +87,62 @@ a:hover {
 	font-size: 1.2em;
 	font-weight: bold;
 }
+/*sección work*/
+#work h2{
+	text-align:center;
+}
+#work{
+  background-color: white;
+  text-align: left;
+  color: #373B47;
+  padding: 70px 7px;
+  height: 800px;
+  justify-content: flex-end;
+  align-items: center;
+}
+#work-p{
+  
+  margin-right:260px;
+  margin-left: 260px;
+  padding: 30px;
+}
 
+#computer-image{
+  background-image: url(../assets/images/hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 780px 850px;
+  height: 900px;
+  text-align: center;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+/*imagenes*/
+#imagenes.flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 240px 0 100px 100px;
+}
+#imagenes{
+	margin-top: 450px;
+	display: flex;
+	padding: 20px;
+	display: flex;	
+}
+.caja-imagen{
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  flex: 0 1 25%;
+}
+.producto{
+
+    margin: 0;
+	max-width: 70%;
+	border-radius: 2px;
+}
 /*estilos footer*/
 footer{
   height: 70px;
