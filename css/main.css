@@ -2,7 +2,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   background-color: #fff;
-  /* Enlaza la tipografia Open Sans */
+  font-family: 'Raleway', sans-serif;
 }
 /*flex-box container*/
 .flex-container{
@@ -90,6 +90,7 @@ a:hover {
 /*sección work*/
 #work h2{
 	text-align:center;
+	font-size: 30px;
 }
 #work{
   background-color: white;
@@ -102,9 +103,10 @@ a:hover {
 }
 #work-p{
   
-  margin-right:260px;
-  margin-left: 260px;
-  padding: 30px;
+  margin-right:180px;
+  margin-left: 180px;
+  padding: 20px;
+  font-size: 18px;
 }
 
 #computer-image{
@@ -129,7 +131,7 @@ a:hover {
 	margin-top: 450px;
 	display: flex;
 	padding: 20px;
-	display: flex;	
+	
 }
 .caja-imagen{
   height: 200px;
@@ -145,7 +147,7 @@ a:hover {
 }
 /*estilos footer*/
 footer{
-  height: 70px;
+  height: 100px;
   background-color: #373b47;
   color: white;
   display: flex;
@@ -154,10 +156,10 @@ footer{
 span{
 
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 30px;
 
 
 .fa-heart{
